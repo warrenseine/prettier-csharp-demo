@@ -1,0 +1,15 @@
+{
+  "name": "prettier-csharp-demo",
+  "version": "1.0.0",
+  "description": "Prettier C# Demo",
+  "repository": "warrenseine/prettier-csharp-demo",
+  "author": "Warren Seine <@warrenseine>",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "1.13.4",
+    "prettier-csharp": "^0.2.1-development"
+  },
+  "scripts": {
+    "prettier": "prettier --plugin=prettier-csharp --parser=cs --write Test.cs"
+  }
+}
